@@ -295,6 +295,7 @@ header{
 .odd{
     align-self: flex-start;
     text-align: left;
+    margin-left: 8px;
 }
 .odd span{
     position: absolute;
@@ -314,6 +315,7 @@ header{
 .even{
     align-self: flex-end;
     text-align: right;
+    margin-right: 8px;
 }
 .even span{
     position: absolute;
@@ -483,7 +485,7 @@ header{
     display: flex;
     height: auto;
     width: auto;
-    max-width: 714px;
+    max-width: 800px;
     margin: 0 auto;
     overflow-x: scroll;
     overscroll-behavior-x: contain;
@@ -519,6 +521,12 @@ header{
     font-size: 1.4rem;
     line-height: 2.2rem;
     padding: 5px;
+}
+.cardOne{
+    margin-left: 40px;
+}
+.cardThree{
+    margin-right: 40px;
 }
 footer{
     display: flex;
