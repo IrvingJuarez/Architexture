@@ -1,0 +1,41 @@
+.header__text{
+    width: 50%;
+    height: 100vh;
+}
+.header__image{
+    width: 50%;
+    height: 100vh;
+}
+.header__links{
+    justify-content: center;
+}
+.section1__card{
+    display: flex;
+}
+.section1__card__text{
+    background-color: white;
+    color: black;
+    padding: 0 20px 20px 20px;
+}
+.section1__card__img{
+    position: static;
+}
+.section1__card__img, .section1__card__text{
+    width: 50%;
+    opacity: 1;
+}
+.section2__card{
+    background-color: rgba(0, 0, 53, 0.8);
+}
+.one, .three{
+    left: 100%;
+}
+.two, .four{
+    left: -100%;
+}
+.section4__card{
+    margin: 25px 15px;
+}
+.footer__text, .footer__form{
+    width: 50%;
+}
